@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(159, 175, 191); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+    <form name="mainform">
+
+        <table border="1px" height="300px" width="50%" style="text-align: center; margin: 100px auto; padding: 50px; border: hidden; border: 1px solid white    ; border-radius: 8px;">
+
+            <tr  style="background-color: lightslategray;">
+                <td colspan="2"><h1>Basic Calculator</h1></td>
+            </tr>
+
+            <tr>
+            </tr>
+
+            <tr>
+                <th style="background-color: lightslategray;">Enter First Value</th>
+                <td><input class="inp" type="text" name="phlabox"  placeholder="Enter Your Value"></td>
+            </tr>
+
+            <tr>
+                <th style="background-color: lightslategray;">Enter Second Value</th>
+                <td><input class="inp" type="text" name="dosrabox" placeholder="Enter Your Value"></td>
+            </tr>
+
+            <tr>
+                <th style="background-color: lightslategray; font-size: 20px;"> Result:</th>
+                <td> <input  class="res" type="text" name="resultbox" placeholder="Your Result"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                    <input class="btn" type="button" value="+" onClick="sum()">
+                    <input class="btn" type="button" value="-"  onClick="subt()">
+                    <input class="btn" type="button" value="*"  onClick="mul()">
+                    <input class="btn" type="button" value="/"  onClick="div()">
+                    
+                    </td>
+                    
+                    </tr>
+                    
+                
+        </table>
+
+    </form>
+
+
+<script src="./app.js"></script>
+</body>
+</html>
